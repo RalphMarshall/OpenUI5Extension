@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "OpenUI5 Chrome Extension",
+  "version": "0.1.0",
+  "description": "Hello, world! Chrome Extension written using OpenUI5",
+  "icons": {
+    "16": "images/openUI5_16.png",
+    "48": "images/openUI5_48.png",
+    "128": "images/openUI5_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/openUI5_16.png",
+      "48": "images/openUI5_48.png",
+      "128": "images/openUI5_128.png"
+    },
+    "default_title": "OpenUI5 Chrome Extension",
+    "default_popup": "popup.html"
+  }
+}
